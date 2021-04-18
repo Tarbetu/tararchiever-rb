@@ -1,4 +1,0 @@
-cargo:rustc-link-search=/usr/lib64
-cargo:rustc-link-lib=ruby2.7
-cargo:rustc-link-lib=dylib=ruby2.7
-cargo:rustc-link-lib=m
