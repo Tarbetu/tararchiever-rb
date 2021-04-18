@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    TarArchiever (0.1.0)
+      rutie (~> 0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.14.4)
+    rake (12.3.3)
+    rutie (0.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  TarArchiever!
+  minitest (~> 5.0)
+  rake (~> 12.0)
+  rutie (~> 0.0.3)
+
+BUNDLED WITH
+   2.1.4
