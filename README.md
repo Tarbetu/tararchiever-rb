@@ -1,8 +1,10 @@
 # Tararchiever
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/tararchiever`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is my first Ruby gem which powered by Rust code. It was an good pratice but I haven't tested it.
 
-TODO: Delete this and the text above, and describe your gem
+I have tried to do use Rust compression libraries for Rust code. It's working but not useful for this time.  
+
+WIP.
 
 ## Installation
 
@@ -22,7 +24,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby 
+Archiever.compress_dir :path
+```
+
+Compresses the path. 
+
+```ruby
+Archiever.decompress_tar :path
+```
+
+Decompresses the path.
+
+It would works with tar.gz. There is some options for LZ4, XZ and ZSTD but I'm too lazy to write it. 
 
 ## Development
 
